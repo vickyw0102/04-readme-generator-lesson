@@ -5,11 +5,11 @@
 
   ## Table of Content
 
-  #-[Installation](#installation)
-  #-[Usage](#usage)
-  #-[License](#license)
-  #-[Contributing](#contributing)
-  #-[Tests](#tests)
+  -[Installation](#installation)
+  -[Usage](#Usage-&-Features)
+  -[License](#license)
+  -[Contributing-and-Credits](#Contributing-and-Credits)
+  -[Tests](#tests)
  
 
   ## Installation
@@ -25,14 +25,14 @@
 
 
 
-  ## Usage & Features
+  ## Usage-&-Features
   Require , inquirer, path, write to File and fs methods
 
   ## License 
   [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
   MIT
 
-  ## Contributing and Credits
+  ## Contributing-and-Credits
   Thanks for TA and teammates to work together
 
   ## Tests
