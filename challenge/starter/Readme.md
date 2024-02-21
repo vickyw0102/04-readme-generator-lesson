@@ -5,12 +5,12 @@
 
   ## Table of Content
 
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contributing](#contributing)
-  -[Tests](#tests)
-  -[Questions](#questions)
+  #-[Installation](#installation)
+  #-[Usage](#usage)
+  #-[License](#license)
+  #-[Contributing](#contributing)
+  #-[Tests](#tests)
+ 
 
   ## Installation
   Npm, Javascript, HTML and package.Json
@@ -19,7 +19,10 @@
   Result:
 ![alt text](./images/image.png)
  Video:
-[![Watch the video]] (C:\Users\vicky.mf.wong\bootcamp\04-readme-generator-lesson\challenge\starter\images\Video.gif)
+![Readme video](https://github.com/vickyw0102/04-readme-generator-lesson/assets/42025846/bc6bbbc6-e217-47ff-bce4-143f34614c80)
+
+
+
 
   ## Usage & Features
   Require , inquirer, path, write to File and fs methods
