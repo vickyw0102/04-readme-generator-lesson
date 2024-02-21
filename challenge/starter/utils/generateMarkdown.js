@@ -17,21 +17,23 @@ function generateMarkdown(data) {
   ## Installation
   ${data.Installation}
 
-  ## Usage
+  ## Website Review
+  ${data.websiteReview}
+
+
+  ## Usage & Features
   ${data.Usage}
 
   ## License 
   [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
   ${data.License}
 
-  ## Contributing
-  ${data.Contributing}
+  ## Contributing and Credits
+  ${data.Credits}
 
   ## Tests
   ${data.Tests}
 
-  ## Questions
-  ${data.Questions}
 
 
 

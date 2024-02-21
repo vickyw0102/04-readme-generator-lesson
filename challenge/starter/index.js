@@ -26,7 +26,12 @@ const questions = [
         },
         {
             type: 'input',
-            message: 'What is Usage?',
+            message: 'What is Website Review?',
+            name: 'Website Review',
+        },
+        {
+            type: 'input',
+            message: 'What is Usage and Features?',
             name: 'Usage',
         },
         {
@@ -36,19 +41,15 @@ const questions = [
         },
         {
             type: 'input',
-            message: 'What is Contributing?',
-            name: 'Contributing',
+            message: 'What is Credits & Contributing?',
+            name: 'Credits',
         },
         {
             type: 'input',
             message: 'What is Tests?',
             name: 'Tests',
         },
-        {
-            type: 'input',
-            message: 'What is Questions?',
-            name: 'Questions',
-        },
+  
     ];
 
 // function to write README file
