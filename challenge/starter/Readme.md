@@ -19,7 +19,8 @@
   Result:
 ![alt text](./images/image.png)
  Video:
-![Readme video](https://github.com/vickyw0102/04-readme-generator-lesson/assets/42025846/bc6bbbc6-e217-47ff-bce4-143f34614c80)
+![Readme](https://github.com/vickyw0102/04-readme-generator-lesson/assets/42025846/5230011d-16e4-479c-a92b-3ad00ecb7de8)
+
 
 
 
