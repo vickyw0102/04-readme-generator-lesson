@@ -19,8 +19,8 @@
   Result:
 ![alt text](./images/image.png)
  Video:
-![Readme](https://github.com/vickyw0102/04-readme-generator-lesson/assets/42025846/5230011d-16e4-479c-a92b-3ad00ecb7de8)
 
+![Readme-ezgif com-video-to-gif-converter](https://github.com/vickyw0102/04-readme-generator-lesson/assets/42025846/7c3549b7-ef1c-4332-b8e1-291697ec023e)
 
 
 
