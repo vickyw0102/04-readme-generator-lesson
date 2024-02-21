@@ -6,18 +6,14 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // const writeFile= utils.promisify(fs.writeFile);
 
 // array of questions for user
-const questions = () => [
-    inquirer.prompt([
+const questions = [
+    // inquirer.prompt([
         {
             type: 'input',
             message: 'What is README title?',
             name: 'Title',
         },
-        {
-            type: 'input',
-            message: 'What is Table of Content?',
-            name: 'Table of Content',
-        },
+
         {
             type: 'input',
             message: 'What is Description?',
@@ -53,9 +49,7 @@ const questions = () => [
             message: 'What is Questions?',
             name: 'Questions',
         },
-    ])
-
-];
+    ];
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -63,18 +57,18 @@ function writeToFile(fileName, data) {
 
     // .then((response))=> writeFile ('README.md', response)
         
-    }
+    };
 
     // return writeFile(fileName, data);
 
 
 // function to initialize program
 function init() {
-    inquirer.prompt (questions).then((data) => {
-        writeToFile('README.md', generateMarkdown(data));
-    })
+    inquirer.prompt (questions).then((answers) => {
+        writeToFile("./Readme.md", generateMarkdown(answers));
+    });
 
-}
+};
 
 // function call to initialize program
 init();
