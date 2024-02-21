@@ -53,7 +53,12 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFile(path.join(process.cwd(), fileName), data);
+    return fs.writeFile(path.join(process.cwd(), fileName), data, (err) => {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Success!");
+    });
 
     // .then((response))=> writeFile ('README.md', response)
         
